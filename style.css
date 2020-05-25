@@ -1,0 +1,64 @@
+container {
+	width: 35em;
+	padding: auto;
+	margin: auto;
+}
+
+body {
+	margin: 0px;
+	padding: none;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.header .topHeader {
+	margin: none;
+	padding: none;
+	background-color: #003399;
+	color: white;
+}
+
+.header .topHeader a {
+	margin: none;
+	padding: none;
+	color: white;
+}
+
+.header .bottomHeader a {
+	margin: none;
+	padding: none;
+	color: white;
+}
+
+.header .bottomHeader {
+	margin: none;
+	padding: none;
+	background-color: #6699cc;
+	color: white;
+}
+
+
+.content {
+	margin: auto;
+	padding: 0px;
+	width: 45em;
+}
+
+.hero {
+	background-color: #D3D3D3;
+}
+
+.topLeft {
+    float: left;
+    width: calc( 40% - 20px );
+    padding: 10px;
+}
+
+.topRight {
+    float: right;
+    width: calc( 60% - 20px );
+    padding: 10px;
+}
+
+.panel {
+	background-color: #D3D3D3;;
+}
