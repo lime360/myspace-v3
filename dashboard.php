@@ -110,7 +110,7 @@ require("settings.php");
 					$result = $stmt->get_result();
 					if($result->num_rows === 0) die('u have to login if  u want to go to dashboard dumb dumb');
 					while($row = $result->fetch_assoc()) {
-						echo '<form action="" method="post"><textarea class="xxlarge" id="textarea2" cols="39" name="desc">' . $row['bio'] . '</textarea><button formmethod="post" name="setbio" type="submit" class="btn primary">Set</button></form><hr>';
+						echo '<form action="" method="post"><b>bio</b><br><textarea class="xxlarge" id="textarea2" cols="39" name="desc">' . $row['bio'] . '</textarea><br><b>css</b><textarea class="xxlarge" id="textarea2" cols="39" name="css">' . $row['css'] . '</textarea><button formmethod="post" name="setbio" type="submit" class="btn primary">Set</button></form><hr>';
 					}
 					$stmt->close();
 				?>
