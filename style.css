@@ -65,3 +65,17 @@ body {
 	margin: 5px;
 	background-color: #D3D3D3;
 }
+
+.clearfix {
+	overflow: auto;
+}
+
+.commentpfp {
+	float: right;
+}
+
+.message {
+	background-color: #fc9;
+	padding: auto;
+	margin: auto;
+}

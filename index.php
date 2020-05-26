@@ -16,10 +16,8 @@ require("settings.php");
 		<?php require("header.php"); ?>
 		<div class="content">
 			<div class="hero">
-				<br>
-				<b>welcome to myspace v3.</b><br>
+				<h1>welcome to myspace v3.</h1>
 				<a href="register.php"><button>join now</button></a>
-				<br>
 				<br>
 			</div>
 			<?php
